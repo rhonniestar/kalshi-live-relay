@@ -1,0 +1,33 @@
+name: Refresh Kalshi data
+
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download current markets
+        run: |
+          mkdir -p data
+          curl --fail --retry 3 \
+            "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&mve_filter=exclude&limit=500" \
+            -o data/markets.json
+          jq -e '.markets | length > 0' data/markets.json
+
+      - name: Save market data
+        run: |
+          git config user.name "kalshi-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/markets.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh Kalshi data"
+          git push
