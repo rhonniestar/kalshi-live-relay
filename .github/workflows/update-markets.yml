@@ -18,9 +18,49 @@ jobs:
       - name: Download current markets
         run: |
           mkdir -p data
-          curl --fail --retry 3 \
-            "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&mve_filter=exclude&limit=500" \
-            -o data/markets.json
+          all_markets="$(mktemp)"
+          echo '{"markets":[]}' > "$all_markets"
+          cursor=""
+          min_close_ts="$(($(date -u +%s) - 300))"
+          max_close_ts="$((min_close_ts + 10800))"
+
+          while true; do
+            page="$(mktemp)"
+            curl_args=(
+              --fail
+              --retry 3
+              --silent
+              --show-error
+              --get
+              --data-urlencode "min_close_ts=$min_close_ts"
+              --data-urlencode "max_close_ts=$max_close_ts"
+              --data-urlencode "mve_filter=exclude"
+              --data-urlencode "limit=1000"
+            )
+
+            [ -n "$cursor" ] &&
+              curl_args+=(--data-urlencode "cursor=$cursor")
+
+            curl "${curl_args[@]}" \
+              "https://api.elections.kalshi.com/trade-api/v2/markets" \
+              -o "$page"
+
+            jq -s \
+              '{markets: (.[0].markets + [.[1].markets[] | select(.status == "active")])}' \
+              "$all_markets" "$page" > "${all_markets}.next"
+
+            mv "${all_markets}.next" "$all_markets"
+            cursor="$(jq -r '.cursor // empty' "$page")"
+            rm "$page"
+
+            [ -z "$cursor" ] && break
+          done
+
+          jq --arg refreshed_at "$(date -u +%FT%TZ)" \
+            '. + {refreshed_at:$refreshed_at}' \
+            "$all_markets" > data/markets.json
+
+          rm "$all_markets"
           jq -e '.markets | length > 0' data/markets.json
 
       - name: Save market data
