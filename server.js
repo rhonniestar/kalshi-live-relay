@@ -82,7 +82,7 @@ export function relayTarget(url) {
     if ([...url.searchParams.keys()].some(key=>!allowed.has(key))||url.search.length>2400) return null;
     return {url:"https://api.elections.kalshi.com/trade-api/v2"+path.slice(7)+url.search,ttl:path.includes("/series")?300000:path.endsWith("/orderbook")?2000:5000};
   }
-  if (/^\/coinbase\/products\/(?:BTC|ETH|SOL|XRP|DOGE)-USD\/(?:ticker|candles)$/.test(path)) {
+  if (/^\/coinbase\/products\/(?:BTC|ETH|SOL|XRP|DOGE|LTC|BCH|ADA|AVAX|LINK|DOT|SHIB|ZEC)-USD\/(?:ticker|candles)$/.test(path)) {
     if(path.endsWith("/ticker")&&url.search)return null;
     if(path.endsWith("/candles")){
       if(url.searchParams.get("granularity")!=="60"||[...url.searchParams.keys()].some(key=>!["granularity","start","end"].includes(key)))return null;
@@ -90,6 +90,25 @@ export function relayTarget(url) {
       if(start||end){const a=Date.parse(start||""),b=Date.parse(end||"");if(!Number.isFinite(a)||!Number.isFinite(b)||b<=a||b-a>300*60000)return null;}
     }
     return {url:"https://api.exchange.coinbase.com"+path.slice(9)+url.search,ttl:path.endsWith("/candles")?45000:5000};
+  }
+  if (/^\/kraken\/0\/public\/(?:Trades|OHLC)$/.test(path)) {
+    const pair=url.searchParams.get("pair");
+    if(!/^(?:XBT|ETH|SOL|XRP|XDG|LTC|BCH|ADA|AVAX|LINK|DOT|BNB|SHIB|ZEC)USD$/.test(pair||""))return null;
+    const trades=path.endsWith("/Trades");
+    const allowed=trades?["pair","count"]:["pair","interval"];
+    if([...url.searchParams.keys()].some(key=>!allowed.includes(key)))return null;
+    if(trades?url.searchParams.get("count")!=="1":url.searchParams.get("interval")!=="1")return null;
+    return {url:"https://api.kraken.com"+path.slice(7)+url.search,ttl:trades?3000:45000};
+  }
+  if (/^\/binance\/api\/v3\/(?:trades|klines)$/.test(path)) {
+    if(!/^(?:BTC|ETH|SOL|XRP|DOGE|LTC|BCH|ADA|AVAX|LINK|DOT|BNB|SHIB|ZEC)USDT$/.test(url.searchParams.get("symbol")||""))return null;
+    const trades=path.endsWith("/trades"),allowed=trades?["symbol","limit"]:["symbol","limit","interval"];
+    if([...url.searchParams.keys()].some(key=>!allowed.includes(key)))return null;
+    if(url.searchParams.get("limit")!==(trades?"1":"360")||!trades&&url.searchParams.get("interval")!=="1m")return null;
+    return {url:"https://data-api.binance.vision"+path.slice(8)+url.search,ttl:trades?3000:45000};
+  }
+  if(path==="/coingecko/api/v3/simple/price"&&url.searchParams.get("ids")==="tether"&&url.searchParams.get("vs_currencies")==="usd"&&url.searchParams.get("include_last_updated_at")==="true"&&[...url.searchParams.keys()].every(key=>["ids","vs_currencies","include_last_updated_at"].includes(key))) {
+    return {url:"https://api.coingecko.com"+path.slice(10)+url.search,ttl:45000};
   }
   return null;
 }
@@ -119,6 +138,7 @@ export const server = http.createServer(async (req, res) => {
   if (req.url === "/health") {
     return send(res, 200, {
       ok: true,
+      version: "multi-source-2",
       cached_at: cached?.refreshed_at || null,
       cache_seconds: CACHE_MS / 1000,
     });
