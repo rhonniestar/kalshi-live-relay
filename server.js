@@ -1,4 +1,6 @@
 import http from "node:http";
+import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 
 const PORT = Number(process.env.PORT || 3000);
 const RELAY_TOKEN = process.env.RELAY_TOKEN || "";
@@ -37,7 +39,7 @@ async function fetchMarkets() {
       headers: { accept: "application/json", "user-agent": "kalshi-private-relay/1.0" },
       signal: AbortSignal.timeout(12_000),
     });
-    if (!response.ok) throw new Error(`Kalshi returned HTTP ${response.status}`);
+    if (!response.ok) { await response.body?.cancel(); throw new Error(`Kalshi returned HTTP ${response.status}`); }
 
     const page = await response.json();
     markets.push(...(page.markets || []).filter((market) => market.status === "active"));
@@ -69,7 +71,46 @@ async function getMarkets() {
   return pending;
 }
 
-const server = http.createServer(async (req, res) => {
+const upstreamCache = new Map();
+const upstreamFlights = new Map();
+
+// Read-only public data endpoints. No arbitrary hosts, accounts, orders or writes.
+export function relayTarget(url) {
+  const path=url.pathname;
+  if (/^\/kalshi\/(?:markets(?:\/[A-Z0-9][A-Z0-9_.:-]{0,160}(?:\/orderbook)?)?|series(?:\/[A-Z0-9][A-Z0-9_.:-]{0,160})?)$/.test(path)) {
+    const allowed=new Set(["limit","cursor","min_close_ts","max_close_ts","mve_filter","depth","series_ticker","status"]);
+    if ([...url.searchParams.keys()].some(key=>!allowed.has(key))||url.search.length>2400) return null;
+    return {url:"https://api.elections.kalshi.com/trade-api/v2"+path.slice(7)+url.search,ttl:path.includes("/series")?300000:path.endsWith("/orderbook")?2000:5000};
+  }
+  if (/^\/coinbase\/products\/(?:BTC|ETH|SOL|XRP|DOGE)-USD\/(?:ticker|candles)$/.test(path)) {
+    if (path.endsWith("/candles")&&url.search!=="?granularity=60"||path.endsWith("/ticker")&&url.search) return null;
+    return {url:"https://api.exchange.coinbase.com"+path.slice(9)+url.search,ttl:path.endsWith("/candles")?45000:5000};
+  }
+  return null;
+}
+
+async function getUpstream(target) {
+  const hit=upstreamCache.get(target.url);
+  if(hit&&Date.now()-hit.at<target.ttl) return hit.body;
+  if(upstreamFlights.has(target.url)) return upstreamFlights.get(target.url);
+  if(upstreamFlights.size>=30) throw new Error("Too many data requests; retry shortly");
+  const flight=(async()=>{
+    const started=Date.now();
+    const response=await fetch(target.url,{headers:{accept:"application/json","user-agent":"kalshi-private-relay/1.1","cache-control":"no-cache"},signal:AbortSignal.timeout(8000)});
+    if(!response.ok){await response.body?.cancel();throw new Error(`Data source returned HTTP ${response.status}`);}
+    const data=await response.json();
+    if(!data||typeof data!=="object")throw new Error("Invalid source response");
+    const serverDate=Date.parse(response.headers.get("date")||""),age=Number(response.headers.get("age")||0);
+    const stamp=new Date(Math.min(started,Number.isFinite(serverDate)?serverDate:started,Date.now()-Math.max(0,Number.isFinite(age)?age:0)*1000)).toISOString();
+    const body=Array.isArray(data)?{data,refreshed_at:stamp}:{...data,refreshed_at:stamp};
+    if(upstreamCache.size>=200)upstreamCache.delete(upstreamCache.keys().next().value);
+    upstreamCache.set(target.url,{at:started,body});return body;
+  })();
+  upstreamFlights.set(target.url,flight);
+  try{return await flight;}finally{upstreamFlights.delete(target.url);}
+}
+
+export const server = http.createServer(async (req, res) => {
   if (req.url === "/health") {
     return send(res, 200, {
       ok: true,
@@ -83,7 +124,11 @@ const server = http.createServer(async (req, res) => {
     return send(res, 401, { error: "Unauthorized" });
   }
 
-  if (!req.url?.startsWith("/markets")) {
+  if(req.method!=="GET")return send(res,405,{error:"Read-only endpoint"});
+  const url=new URL(req.url,"http://relay.local");
+  const target=relayTarget(url);
+  if(target){try{return send(res,200,await getUpstream(target));}catch(error){return send(res,502,{error:error instanceof Error?error.message:"Data request failed"});}}
+  if (url.pathname !== "/markets") {
     return send(res, 404, { error: "Not found" });
   }
 
@@ -99,6 +144,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, "0.0.0.0", () => {
+if(process.argv[1]&&fileURLToPath(import.meta.url)===resolve(process.argv[1])) server.listen(PORT, "0.0.0.0", () => {
   console.log(`Kalshi relay listening on port ${PORT}`);
 });
