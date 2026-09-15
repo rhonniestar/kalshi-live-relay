@@ -83,7 +83,12 @@ export function relayTarget(url) {
     return {url:"https://api.elections.kalshi.com/trade-api/v2"+path.slice(7)+url.search,ttl:path.includes("/series")?300000:path.endsWith("/orderbook")?2000:5000};
   }
   if (/^\/coinbase\/products\/(?:BTC|ETH|SOL|XRP|DOGE)-USD\/(?:ticker|candles)$/.test(path)) {
-    if (path.endsWith("/candles")&&url.search!=="?granularity=60"||path.endsWith("/ticker")&&url.search) return null;
+    if(path.endsWith("/ticker")&&url.search)return null;
+    if(path.endsWith("/candles")){
+      if(url.searchParams.get("granularity")!=="60"||[...url.searchParams.keys()].some(key=>!["granularity","start","end"].includes(key)))return null;
+      const start=url.searchParams.get("start"),end=url.searchParams.get("end");
+      if(start||end){const a=Date.parse(start||""),b=Date.parse(end||"");if(!Number.isFinite(a)||!Number.isFinite(b)||b<=a||b-a>300*60000)return null;}
+    }
     return {url:"https://api.exchange.coinbase.com"+path.slice(9)+url.search,ttl:path.endsWith("/candles")?45000:5000};
   }
   return null;
