@@ -129,7 +129,7 @@
       "open_interest_fp": "21636.85",
       "open_time": "2026-07-28T20:15:00Z",
       "previous_price_dollars": "0.0500",
-      "previous_yes_ask_dollars": "0.0600",
+      "previous_yes_ask_dollars": "0.0400",
       "previous_yes_bid_dollars": "0.0300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -282,8 +282,8 @@
       "open_interest_fp": "947.85",
       "open_time": "2026-08-19T18:00:00Z",
       "previous_price_dollars": "0.0900",
-      "previous_yes_ask_dollars": "0.2900",
-      "previous_yes_bid_dollars": "0.0600",
+      "previous_yes_ask_dollars": "0.2800",
+      "previous_yes_bid_dollars": "0.0700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -357,5 +357,5 @@
       "yes_sub_title": "Canada higher?"
     }
   ],
-  "refreshed_at": "2026-09-17T08:11:15Z"
+  "refreshed_at": "2026-09-17T08:28:30Z"
 }
