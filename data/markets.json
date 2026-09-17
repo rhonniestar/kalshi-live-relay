@@ -24,7 +24,7 @@
       "occurrence_datetime": "2026-09-17T10:55:00Z",
       "open_interest_fp": "14393.34",
       "open_time": "2026-07-28T20:15:00Z",
-      "previous_price_dollars": "0.9500",
+      "previous_price_dollars": "0.9700",
       "previous_yes_ask_dollars": "0.9800",
       "previous_yes_bid_dollars": "0.9600",
       "price_level_structure": "linear_cent",
@@ -44,7 +44,7 @@
       "ticker": "KXCBDECISIONENGLAND-26SEP17-HOLD",
       "title": "Will the Bank of England Maintain current rate at the September Monetary Policy Committee meeting?",
       "updated_time": "2026-07-28T20:15:00.251858Z",
-      "volume_24h_fp": "9089.91",
+      "volume_24h_fp": "9088.91",
       "volume_fp": "19187.60",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -275,7 +275,7 @@
       "liquidity_dollars": "0.0000",
       "market_type": "binary",
       "no_ask_dollars": "1.0000",
-      "no_bid_dollars": "0.9700",
+      "no_bid_dollars": "0.7100",
       "no_sub_title": "United Kingdom higher?",
       "notional_value_dollars": "1.0000",
       "occurrence_datetime": "2026-09-17T08:55:00Z",
@@ -302,8 +302,8 @@
       "updated_time": "2026-08-19T18:00:02.049133Z",
       "volume_24h_fp": "253.15",
       "volume_fp": "968.15",
-      "yes_ask_dollars": "0.0300",
-      "yes_ask_size_fp": "4.00",
+      "yes_ask_dollars": "0.2900",
+      "yes_ask_size_fp": "5.00",
       "yes_bid_dollars": "0.0000",
       "yes_bid_size_fp": "0.00",
       "yes_sub_title": "United Kingdom higher?"
@@ -357,5 +357,5 @@
       "yes_sub_title": "Canada higher?"
     }
   ],
-  "refreshed_at": "2026-09-17T08:28:30Z"
+  "refreshed_at": "2026-09-17T08:41:34Z"
 }
