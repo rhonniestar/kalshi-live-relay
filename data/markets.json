@@ -26,7 +26,7 @@
       "open_time": "2026-07-28T20:15:00Z",
       "previous_price_dollars": "0.9700",
       "previous_yes_ask_dollars": "0.9800",
-      "previous_yes_bid_dollars": "0.9600",
+      "previous_yes_bid_dollars": "0.9700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -357,5 +357,5 @@
       "yes_sub_title": "Canada higher?"
     }
   ],
-  "refreshed_at": "2026-09-17T08:41:34Z"
+  "refreshed_at": "2026-09-17T08:51:59Z"
 }
