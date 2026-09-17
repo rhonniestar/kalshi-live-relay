@@ -63,7 +63,7 @@
       "liquidity_dollars": "0.0000",
       "market_type": "binary",
       "no_ask_dollars": "0.9900",
-      "no_bid_dollars": "0.9300",
+      "no_bid_dollars": "0.8100",
       "no_sub_title": "Canada higher?",
       "notional_value_dollars": "1.0000",
       "occurrence_datetime": "2026-09-17T08:55:00Z",
@@ -90,8 +90,8 @@
       "updated_time": "2026-08-19T18:00:01.113911Z",
       "volume_24h_fp": "91.39",
       "volume_fp": "1956.35",
-      "yes_ask_dollars": "0.0700",
-      "yes_ask_size_fp": "100.00",
+      "yes_ask_dollars": "0.1900",
+      "yes_ask_size_fp": "10.76",
       "yes_bid_dollars": "0.0100",
       "yes_bid_size_fp": "900.00",
       "yes_sub_title": "Canada higher?"
@@ -444,7 +444,7 @@
       "yes_ask_dollars": "0.9900",
       "yes_ask_size_fp": "238.10",
       "yes_bid_dollars": "0.9800",
-      "yes_bid_size_fp": "60.61",
+      "yes_bid_size_fp": "26.61",
       "yes_sub_title": "58° to 59°"
     },
     {
@@ -515,7 +515,7 @@
       "liquidity_dollars": "0.0000",
       "market_type": "binary",
       "no_ask_dollars": "0.9900",
-      "no_bid_dollars": "0.9800",
+      "no_bid_dollars": "0.9700",
       "no_sub_title": "54° to 55°",
       "notional_value_dollars": "1.0000",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
@@ -523,7 +523,7 @@
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0800",
       "previous_yes_ask_dollars": "0.0800",
-      "previous_yes_bid_dollars": "0.0200",
+      "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -543,7 +543,7 @@
       "updated_time": "2026-09-15T14:00:01.481765Z",
       "volume_24h_fp": "139.09",
       "volume_fp": "147.27",
-      "yes_ask_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "yes_ask_size_fp": "100.00",
       "yes_bid_dollars": "0.0100",
       "yes_bid_size_fp": "0.93",
@@ -623,7 +623,7 @@
       "open_interest_fp": "1395.77",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.1700",
-      "previous_yes_ask_dollars": "0.2900",
+      "previous_yes_ask_dollars": "0.3000",
       "previous_yes_bid_dollars": "0.1900",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -724,8 +724,8 @@
       "open_interest_fp": "1027.45",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.5600",
-      "previous_yes_ask_dollars": "0.6600",
-      "previous_yes_bid_dollars": "0.5100",
+      "previous_yes_ask_dollars": "0.6100",
+      "previous_yes_bid_dollars": "0.5000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -775,8 +775,8 @@
       "open_interest_fp": "246.02",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0700",
-      "previous_yes_ask_dollars": "0.1700",
-      "previous_yes_bid_dollars": "0.0200",
+      "previous_yes_ask_dollars": "0.1300",
+      "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -826,7 +826,7 @@
       "open_interest_fp": "160.00",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0900",
+      "previous_yes_ask_dollars": "0.1000",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -927,7 +927,7 @@
       "open_interest_fp": "242.98",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.9100",
-      "previous_yes_ask_dollars": "0.9200",
+      "previous_yes_ask_dollars": "0.9300",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1028,8 +1028,8 @@
       "open_interest_fp": "140.16",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0800",
-      "previous_yes_ask_dollars": "0.3800",
-      "previous_yes_bid_dollars": "0.0800",
+      "previous_yes_ask_dollars": "0.4000",
+      "previous_yes_bid_dollars": "0.2900",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1079,7 +1079,7 @@
       "open_interest_fp": "111.01",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.1200",
+      "previous_yes_ask_dollars": "0.1300",
       "previous_yes_bid_dollars": "0.0200",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1130,7 +1130,7 @@
       "open_interest_fp": "89.00",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.1000",
+      "previous_yes_ask_dollars": "0.1100",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1181,7 +1181,7 @@
       "open_interest_fp": "123.01",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0900",
+      "previous_yes_ask_dollars": "0.1100",
       "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1230,9 +1230,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "1714.51",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.7200",
-      "previous_yes_ask_dollars": "0.8000",
-      "previous_yes_bid_dollars": "0.6700",
+      "previous_price_dollars": "0.9000",
+      "previous_yes_ask_dollars": "0.9100",
+      "previous_yes_bid_dollars": "0.8000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1250,7 +1250,7 @@
       "ticker": "KXLOWTLV-26SEP16-T78",
       "title": "Will the minimum temperature be >78° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.41622Z",
-      "volume_24h_fp": "1550.72",
+      "volume_24h_fp": "1472.91",
       "volume_fp": "2413.91",
       "yes_ask_dollars": "0.9500",
       "yes_ask_size_fp": "57.00",
@@ -1331,9 +1331,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "513.61",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.2000",
-      "previous_yes_ask_dollars": "0.2600",
-      "previous_yes_bid_dollars": "0.2000",
+      "previous_price_dollars": "0.1200",
+      "previous_yes_ask_dollars": "0.2100",
+      "previous_yes_bid_dollars": "0.1000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1351,7 +1351,7 @@
       "ticker": "KXLOWTLV-26SEP16-B77.5",
       "title": "Will the minimum temperature be 77-78° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.41622Z",
-      "volume_24h_fp": "670.77",
+      "volume_24h_fp": "561.19",
       "volume_fp": "1013.50",
       "yes_ask_dollars": "0.2400",
       "yes_ask_size_fp": "1.00",
@@ -1434,7 +1434,7 @@
       "open_interest_fp": "89.00",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0500",
+      "previous_yes_ask_dollars": "0.0600",
       "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1485,7 +1485,7 @@
       "open_interest_fp": "70.00",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0200",
+      "previous_yes_ask_dollars": "0.0600",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1536,7 +1536,7 @@
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.9100",
       "previous_yes_ask_dollars": "0.9100",
-      "previous_yes_bid_dollars": "0.8100",
+      "previous_yes_bid_dollars": "0.8000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1585,7 +1585,7 @@
       "open_interest_fp": "67.00",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0200",
-      "previous_yes_ask_dollars": "0.0200",
+      "previous_yes_ask_dollars": "0.0100",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1636,7 +1636,7 @@
       "open_interest_fp": "509.51",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.1000",
-      "previous_yes_ask_dollars": "0.1400",
+      "previous_yes_ask_dollars": "0.1500",
       "previous_yes_bid_dollars": "0.0400",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1687,7 +1687,7 @@
       "open_interest_fp": "202.28",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0200",
+      "previous_yes_ask_dollars": "0.0500",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1738,7 +1738,7 @@
       "open_interest_fp": "175.00",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0300",
+      "previous_yes_ask_dollars": "0.0400",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1838,7 +1838,7 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "1065.85",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.0200",
+      "previous_price_dollars": "0.0100",
       "previous_yes_ask_dollars": "0.0200",
       "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
@@ -1858,7 +1858,7 @@
       "ticker": "KXHIGHTSFO-26SEP16-T73",
       "title": "Will the maximum temperature be >73° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "436.65",
+      "volume_24h_fp": "409.10",
       "volume_fp": "1412.86",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "3642.15",
@@ -1888,7 +1888,7 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "9807.89",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.0500",
+      "previous_price_dollars": "0.0200",
       "previous_yes_ask_dollars": "0.0300",
       "previous_yes_bid_dollars": "0.0200",
       "price_level_structure": "linear_cent",
@@ -1908,7 +1908,7 @@
       "ticker": "KXHIGHTSFO-26SEP16-T66",
       "title": "Will the maximum temperature be <66° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "13414.98",
+      "volume_24h_fp": "13413.43",
       "volume_fp": "14735.51",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "37882.68",
@@ -1939,9 +1939,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "7501.97",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.0400",
-      "previous_yes_ask_dollars": "0.0400",
-      "previous_yes_bid_dollars": "0.0300",
+      "previous_price_dollars": "0.1700",
+      "previous_yes_ask_dollars": "0.1800",
+      "previous_yes_bid_dollars": "0.1700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1959,7 +1959,7 @@
       "ticker": "KXHIGHTSFO-26SEP16-B72.5",
       "title": "Will the maximum temperature be 72-73° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "7974.96",
+      "volume_24h_fp": "4348.78",
       "volume_fp": "8071.24",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "1472.00",
@@ -1991,8 +1991,8 @@
       "open_interest_fp": "2500.64",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.2300",
-      "previous_yes_ask_dollars": "0.2500",
-      "previous_yes_bid_dollars": "0.2100",
+      "previous_yes_ask_dollars": "0.2600",
+      "previous_yes_bid_dollars": "0.2300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2010,7 +2010,7 @@
       "ticker": "KXHIGHTSFO-26SEP16-B70.5",
       "title": "Will the maximum temperature be 70-71° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "3566.71",
+      "volume_24h_fp": "3565.16",
       "volume_fp": "3971.06",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "1662.62",
@@ -2041,9 +2041,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "3896.27",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.4800",
-      "previous_yes_ask_dollars": "0.4800",
-      "previous_yes_bid_dollars": "0.4400",
+      "previous_price_dollars": "0.4200",
+      "previous_yes_ask_dollars": "0.4400",
+      "previous_yes_bid_dollars": "0.4200",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2061,7 +2061,7 @@
       "ticker": "KXHIGHTSFO-26SEP16-B68.5",
       "title": "Will the maximum temperature be 68-69° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "7193.01",
+      "volume_24h_fp": "7191.46",
       "volume_fp": "7844.03",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "1241.24",
@@ -2092,9 +2092,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "6407.76",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.2200",
-      "previous_yes_ask_dollars": "0.2500",
-      "previous_yes_bid_dollars": "0.2000",
+      "previous_price_dollars": "0.2100",
+      "previous_yes_ask_dollars": "0.1900",
+      "previous_yes_bid_dollars": "0.1700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2112,7 +2112,7 @@
       "ticker": "KXHIGHTSFO-26SEP16-B66.5",
       "title": "Will the maximum temperature be 66-67° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "11088.67",
+      "volume_24h_fp": "11087.12",
       "volume_fp": "11708.81",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -2162,10 +2162,10 @@
       "ticker": "KXHIGHTSEA-26SEP16-T77",
       "title": "Will the maximum temperature be >77° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "1330.17",
+      "volume_24h_fp": "1320.17",
       "volume_fp": "1564.43",
       "yes_ask_dollars": "0.0100",
-      "yes_ask_size_fp": "1996.98",
+      "yes_ask_size_fp": "1846.98",
       "yes_bid_dollars": "0.0000",
       "yes_bid_size_fp": "0.00",
       "yes_sub_title": "78° or above"
@@ -2212,7 +2212,7 @@
       "ticker": "KXHIGHTSEA-26SEP16-T70",
       "title": "Will the maximum temperature be <70° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "238.34",
+      "volume_24h_fp": "228.34",
       "volume_fp": "2076.63",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "134867.96",
@@ -2263,7 +2263,7 @@
       "ticker": "KXHIGHTSEA-26SEP16-B76.5",
       "title": "Will the maximum temperature be 76-77° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "10279.54",
+      "volume_24h_fp": "10269.54",
       "volume_fp": "11961.46",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "4294.94",
@@ -2294,9 +2294,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "5170.04",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.5400",
-      "previous_yes_ask_dollars": "0.5600",
-      "previous_yes_bid_dollars": "0.5400",
+      "previous_price_dollars": "0.5300",
+      "previous_yes_ask_dollars": "0.5400",
+      "previous_yes_bid_dollars": "0.5300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2314,7 +2314,7 @@
       "ticker": "KXHIGHTSEA-26SEP16-B74.5",
       "title": "Will the maximum temperature be 74-75° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "8623.10",
+      "volume_24h_fp": "8613.10",
       "volume_fp": "10398.80",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -2345,9 +2345,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "20045.74",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.1800",
-      "previous_yes_ask_dollars": "0.1700",
-      "previous_yes_bid_dollars": "0.1400",
+      "previous_price_dollars": "0.1700",
+      "previous_yes_ask_dollars": "0.1800",
+      "previous_yes_bid_dollars": "0.1700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2365,7 +2365,7 @@
       "ticker": "KXHIGHTSEA-26SEP16-B72.5",
       "title": "Will the maximum temperature be 72-73° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "25086.13",
+      "volume_24h_fp": "25076.13",
       "volume_fp": "29287.42",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "131729.12",
@@ -2398,7 +2398,7 @@
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0300",
       "previous_yes_ask_dollars": "0.0400",
-      "previous_yes_bid_dollars": "0.0300",
+      "previous_yes_bid_dollars": "0.0200",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2416,7 +2416,7 @@
       "ticker": "KXHIGHTSEA-26SEP16-B70.5",
       "title": "Will the maximum temperature be 70-71° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "46847.48",
+      "volume_24h_fp": "46837.48",
       "volume_fp": "58264.50",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "94604.00",
@@ -2549,7 +2549,7 @@
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.0100",
       "previous_yes_ask_dollars": "0.1000",
-      "previous_yes_bid_dollars": "0.0200",
+      "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2600,7 +2600,7 @@
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.1900",
       "previous_yes_ask_dollars": "0.2600",
-      "previous_yes_bid_dollars": "0.1500",
+      "previous_yes_bid_dollars": "0.1400",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2701,8 +2701,8 @@
       "open_interest_fp": "621.39",
       "open_time": "2026-09-15T14:00:00Z",
       "previous_price_dollars": "0.2800",
-      "previous_yes_ask_dollars": "0.2800",
-      "previous_yes_bid_dollars": "0.1700",
+      "previous_yes_ask_dollars": "0.3000",
+      "previous_yes_bid_dollars": "0.1900",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2851,9 +2851,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "8395.34",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.3300",
-      "previous_yes_ask_dollars": "0.3800",
-      "previous_yes_bid_dollars": "0.3400",
+      "previous_price_dollars": "0.4600",
+      "previous_yes_ask_dollars": "0.4700",
+      "previous_yes_bid_dollars": "0.4600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2871,7 +2871,7 @@
       "ticker": "KXHIGHTLV-26SEP16-B98.5",
       "title": "Will the maximum temperature be 98-99° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "11535.53",
+      "volume_24h_fp": "11372.93",
       "volume_fp": "11980.91",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -2902,9 +2902,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "19932.63",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.5600",
-      "previous_yes_ask_dollars": "0.5600",
-      "previous_yes_bid_dollars": "0.5200",
+      "previous_price_dollars": "0.4800",
+      "previous_yes_ask_dollars": "0.4900",
+      "previous_yes_bid_dollars": "0.4800",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2922,7 +2922,7 @@
       "ticker": "KXHIGHTLV-26SEP16-B96.5",
       "title": "Will the maximum temperature be 96-97° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "21291.50",
+      "volume_24h_fp": "21242.45",
       "volume_fp": "21662.18",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "83683.26",
@@ -2953,9 +2953,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "4822.01",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.1300",
-      "previous_yes_ask_dollars": "0.1100",
-      "previous_yes_bid_dollars": "0.1000",
+      "previous_price_dollars": "0.0900",
+      "previous_yes_ask_dollars": "0.0900",
+      "previous_yes_bid_dollars": "0.0800",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2973,7 +2973,7 @@
       "ticker": "KXHIGHTLV-26SEP16-B94.5",
       "title": "Will the maximum temperature be 94-95° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "5556.39",
+      "volume_24h_fp": "5505.39",
       "volume_fp": "5862.89",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "76415.07",
@@ -3024,7 +3024,7 @@
       "ticker": "KXHIGHTLV-26SEP16-B100.5",
       "title": "Will the maximum temperature be 100-101° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.16203Z",
-      "volume_24h_fp": "12114.36",
+      "volume_24h_fp": "12065.36",
       "volume_fp": "12299.99",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "2041.28",
@@ -3054,9 +3054,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "255527.49",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.0700",
-      "previous_yes_ask_dollars": "0.0800",
-      "previous_yes_bid_dollars": "0.0700",
+      "previous_price_dollars": "0.0900",
+      "previous_yes_ask_dollars": "0.0900",
+      "previous_yes_bid_dollars": "0.0600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -3074,10 +3074,10 @@
       "ticker": "KXHIGHLAX-26SEP16-T80",
       "title": "Will the maximum temperature be >80° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.095168Z",
-      "volume_24h_fp": "354562.89",
+      "volume_24h_fp": "354192.31",
       "volume_fp": "364839.54",
       "yes_ask_dollars": "0.0100",
-      "yes_ask_size_fp": "287884.01",
+      "yes_ask_size_fp": "287734.01",
       "yes_bid_dollars": "0.0000",
       "yes_bid_size_fp": "0.00",
       "yes_sub_title": "81° or above"
@@ -3155,9 +3155,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "48010.69",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.2500",
-      "previous_yes_ask_dollars": "0.2600",
-      "previous_yes_bid_dollars": "0.2500",
+      "previous_price_dollars": "0.2900",
+      "previous_yes_ask_dollars": "0.2900",
+      "previous_yes_bid_dollars": "0.2700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -3175,7 +3175,7 @@
       "ticker": "KXHIGHLAX-26SEP16-B79.5",
       "title": "Will the maximum temperature be 79-80° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.095168Z",
-      "volume_24h_fp": "83119.58",
+      "volume_24h_fp": "82765.57",
       "volume_fp": "93505.80",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -3206,9 +3206,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "64285.93",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.5000",
+      "previous_price_dollars": "0.4900",
       "previous_yes_ask_dollars": "0.5100",
-      "previous_yes_bid_dollars": "0.5000",
+      "previous_yes_bid_dollars": "0.4900",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -3226,7 +3226,7 @@
       "ticker": "KXHIGHLAX-26SEP16-B77.5",
       "title": "Will the maximum temperature be 77-78° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.095168Z",
-      "volume_24h_fp": "112862.84",
+      "volume_24h_fp": "112719.85",
       "volume_fp": "119930.06",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "338234.89",
@@ -3257,9 +3257,9 @@
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "open_interest_fp": "37532.78",
       "open_time": "2026-09-15T14:00:00Z",
-      "previous_price_dollars": "0.1900",
-      "previous_yes_ask_dollars": "0.2000",
-      "previous_yes_bid_dollars": "0.1900",
+      "previous_price_dollars": "0.2200",
+      "previous_yes_ask_dollars": "0.1900",
+      "previous_yes_bid_dollars": "0.1800",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -3277,7 +3277,7 @@
       "ticker": "KXHIGHLAX-26SEP16-B75.5",
       "title": "Will the maximum temperature be 75-76° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.095168Z",
-      "volume_24h_fp": "42176.40",
+      "volume_24h_fp": "41608.29",
       "volume_fp": "50768.31",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "71107.49",
@@ -3328,7 +3328,7 @@
       "ticker": "KXHIGHLAX-26SEP16-B73.5",
       "title": "Will the maximum temperature be 73-74° on Sep 16, 2026?",
       "updated_time": "2026-09-15T14:00:01.095168Z",
-      "volume_24h_fp": "48833.62",
+      "volume_24h_fp": "48699.93",
       "volume_fp": "53373.73",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "148720.73",
@@ -3337,5 +3337,5 @@
       "yes_sub_title": "73° to 74°"
     }
   ],
-  "refreshed_at": "2026-09-17T07:33:48Z"
+  "refreshed_at": "2026-09-17T07:47:05Z"
 }
