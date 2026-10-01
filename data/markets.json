@@ -122,8 +122,8 @@
       "open_interest_fp": "3033.32",
       "open_time": "2026-09-15T17:00:00Z",
       "previous_price_dollars": "0.1500",
-      "previous_yes_ask_dollars": "0.5100",
-      "previous_yes_bid_dollars": "0.0200",
+      "previous_yes_ask_dollars": "0.4300",
+      "previous_yes_bid_dollars": "0.1000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -223,7 +223,7 @@
       "open_time": "2026-09-15T17:00:00Z",
       "previous_price_dollars": "0.8400",
       "previous_yes_ask_dollars": "0.9300",
-      "previous_yes_bid_dollars": "0.5700",
+      "previous_yes_bid_dollars": "0.5800",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -273,7 +273,7 @@
       "open_time": "2026-09-15T17:00:00Z",
       "previous_price_dollars": "0.9600",
       "previous_yes_ask_dollars": "1.0000",
-      "previous_yes_bid_dollars": "0.5200",
+      "previous_yes_bid_dollars": "0.5100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -821,9 +821,9 @@
       "occurrence_datetime": "2026-10-01T11:00:00Z",
       "open_interest_fp": "4590.23",
       "open_time": "2026-09-03T23:00:00Z",
-      "previous_price_dollars": "0.3100",
-      "previous_yes_ask_dollars": "0.3200",
-      "previous_yes_bid_dollars": "0.2400",
+      "previous_price_dollars": "0.2400",
+      "previous_yes_ask_dollars": "0.3000",
+      "previous_yes_bid_dollars": "0.2300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -842,7 +842,7 @@
       "ticker": "KXCHAICUTS-26OCT01-T1",
       "title": "Will “Artificial Intelligence” be the #1 reason for job cuts in Challenger’s September 2026 report?",
       "updated_time": "2026-09-03T23:00:00.899798Z",
-      "volume_24h_fp": "546.97",
+      "volume_24h_fp": "545.68",
       "volume_fp": "8450.51",
       "yes_ask_dollars": "0.7300",
       "yes_ask_size_fp": "1.00",
@@ -1798,7 +1798,7 @@
       "open_interest_fp": "1575.86",
       "open_time": "2026-09-26T04:11:00Z",
       "previous_price_dollars": "0.3600",
-      "previous_yes_ask_dollars": "0.3400",
+      "previous_yes_ask_dollars": "0.3300",
       "previous_yes_bid_dollars": "0.2900",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1849,7 +1849,7 @@
       "occurrence_datetime": "2026-09-29T13:00:00Z",
       "open_interest_fp": "10086.41",
       "open_time": "2026-09-26T04:11:00Z",
-      "previous_price_dollars": "0.7100",
+      "previous_price_dollars": "0.7200",
       "previous_yes_ask_dollars": "0.7000",
       "previous_yes_bid_dollars": "0.6700",
       "price_level_structure": "linear_cent",
@@ -1870,7 +1870,7 @@
       "ticker": "KXNPBGAME-26SEP290500YAKHAN-HAN",
       "title": "Hanshin Tigers wins",
       "updated_time": "2026-09-26T04:11:01.004146Z",
-      "volume_24h_fp": "6946.51",
+      "volume_24h_fp": "6940.40",
       "volume_fp": "24069.85",
       "yes_ask_dollars": "0.7100",
       "yes_ask_size_fp": "385.71",
@@ -1922,7 +1922,7 @@
       "ticker": "KXNPBGAME-26SEP290500CHUYOK-YOK",
       "title": "Yokohama DeNA BayStars wins",
       "updated_time": "2026-09-26T04:11:01.004146Z",
-      "volume_24h_fp": "454.58",
+      "volume_24h_fp": "447.95",
       "volume_fp": "2033.52",
       "yes_ask_dollars": "0.7600",
       "yes_ask_size_fp": "537.41",
@@ -1953,7 +1953,7 @@
       "occurrence_datetime": "2026-09-29T13:00:00Z",
       "open_interest_fp": "416.03",
       "open_time": "2026-09-26T04:11:00Z",
-      "previous_price_dollars": "0.2600",
+      "previous_price_dollars": "0.3700",
       "previous_yes_ask_dollars": "0.3700",
       "previous_yes_bid_dollars": "0.2600",
       "price_level_structure": "linear_cent",
@@ -1974,7 +1974,7 @@
       "ticker": "KXNPBGAME-26SEP290500CHUYOK-CHU",
       "title": "Chunichi Dragons wins",
       "updated_time": "2026-09-26T04:11:01.004146Z",
-      "volume_24h_fp": "728.53",
+      "volume_24h_fp": "715.59",
       "volume_fp": "1450.47",
       "yes_ask_dollars": "0.4100",
       "yes_ask_size_fp": "111.00",
@@ -1983,5 +1983,5 @@
       "yes_sub_title": "Chunichi Dragons"
     }
   ],
-  "refreshed_at": "2026-10-01T08:38:17Z"
+  "refreshed_at": "2026-10-01T08:53:29Z"
 }
