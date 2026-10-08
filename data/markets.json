@@ -373,9 +373,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "883.59",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2300",
+      "previous_price_dollars": "0.1600",
       "previous_yes_ask_dollars": "0.2900",
-      "previous_yes_bid_dollars": "0.1600",
+      "previous_yes_bid_dollars": "0.0700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -394,7 +394,7 @@
       "ticker": "KXLOWTSFO-26OCT07-B59.5",
       "title": "Will the minimum temperature be 59-60° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "736.59",
+      "volume_24h_fp": "728.59",
       "volume_fp": "975.59",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "18576.56",
@@ -425,7 +425,7 @@
       "open_interest_fp": "494.24",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.3700",
-      "previous_yes_ask_dollars": "0.4500",
+      "previous_yes_ask_dollars": "0.4700",
       "previous_yes_bid_dollars": "0.3600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -475,9 +475,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "961.81",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2000",
-      "previous_yes_ask_dollars": "0.2900",
-      "previous_yes_bid_dollars": "0.0900",
+      "previous_price_dollars": "0.0900",
+      "previous_yes_ask_dollars": "0.2500",
+      "previous_yes_bid_dollars": "0.0500",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -496,12 +496,12 @@
       "ticker": "KXLOWTSFO-26OCT07-B55.5",
       "title": "Will the minimum temperature be 55-56° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "860.40",
+      "volume_24h_fp": "850.40",
       "volume_fp": "1030.40",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
       "yes_bid_dollars": "0.9900",
-      "yes_bid_size_fp": "160.00",
+      "yes_bid_size_fp": "156.00",
       "yes_sub_title": "55° to 56°"
     },
     {
@@ -527,7 +527,7 @@
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.1200",
       "previous_yes_ask_dollars": "0.1200",
-      "previous_yes_bid_dollars": "0.1100",
+      "previous_yes_bid_dollars": "0.1000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -546,7 +546,7 @@
       "ticker": "KXLOWTSEA-26OCT07-T52",
       "title": "Will the minimum temperature be >52° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "1038.97",
+      "volume_24h_fp": "1034.97",
       "volume_fp": "1041.04",
       "yes_ask_dollars": "0.9500",
       "yes_ask_size_fp": "18.67",
@@ -626,9 +626,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "248.16",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.4100",
-      "previous_yes_ask_dollars": "0.5000",
-      "previous_yes_bid_dollars": "0.3800",
+      "previous_price_dollars": "0.2900",
+      "previous_yes_ask_dollars": "0.4100",
+      "previous_yes_bid_dollars": "0.2900",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -647,7 +647,7 @@
       "ticker": "KXLOWTSEA-26OCT07-B51.5",
       "title": "Will the minimum temperature be 51-52° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "348.25",
+      "volume_24h_fp": "334.25",
       "volume_fp": "433.25",
       "yes_ask_dollars": "0.2400",
       "yes_ask_size_fp": "1.00",
@@ -678,8 +678,8 @@
       "open_interest_fp": "448.95",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.4100",
-      "previous_yes_ask_dollars": "0.4000",
-      "previous_yes_bid_dollars": "0.2800",
+      "previous_yes_ask_dollars": "0.5100",
+      "previous_yes_bid_dollars": "0.3100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -728,9 +728,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "224.00",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2300",
-      "previous_yes_ask_dollars": "0.2900",
-      "previous_yes_bid_dollars": "0.1600",
+      "previous_price_dollars": "0.1200",
+      "previous_yes_ask_dollars": "0.2700",
+      "previous_yes_bid_dollars": "0.1100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -749,7 +749,7 @@
       "ticker": "KXLOWTSEA-26OCT07-B47.5",
       "title": "Will the minimum temperature be 47-48° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "248.72",
+      "volume_24h_fp": "247.72",
       "volume_fp": "314.00",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "47.00",
@@ -829,9 +829,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "439.34",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.0300",
+      "previous_price_dollars": "0.0200",
       "previous_yes_ask_dollars": "0.0400",
-      "previous_yes_bid_dollars": "0.0300",
+      "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -850,7 +850,7 @@
       "ticker": "KXLOWTSAN-26OCT07-T73",
       "title": "Will the minimum temperature be >73° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "428.06",
+      "volume_24h_fp": "374.06",
       "volume_fp": "470.74",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "2098.09",
@@ -880,7 +880,7 @@
       "open_interest_fp": "0.00",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0000",
-      "previous_yes_ask_dollars": "0.0300",
+      "previous_yes_ask_dollars": "0.0200",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -931,8 +931,8 @@
       "open_interest_fp": "79.00",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0000",
-      "previous_yes_ask_dollars": "0.3800",
-      "previous_yes_bid_dollars": "0.2000",
+      "previous_yes_ask_dollars": "0.5100",
+      "previous_yes_bid_dollars": "0.3500",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -981,9 +981,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "620.65",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.5600",
-      "previous_yes_ask_dollars": "0.6500",
-      "previous_yes_bid_dollars": "0.4900",
+      "previous_price_dollars": "0.4200",
+      "previous_yes_ask_dollars": "0.6900",
+      "previous_yes_bid_dollars": "0.2200",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1002,7 +1002,7 @@
       "ticker": "KXLOWTSAN-26OCT07-B70.5",
       "title": "Will the minimum temperature be 70-71° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "755.44",
+      "volume_24h_fp": "735.44",
       "volume_fp": "773.44",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -1033,7 +1033,7 @@
       "open_interest_fp": "1060.18",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.1200",
-      "previous_yes_ask_dollars": "0.1700",
+      "previous_yes_ask_dollars": "0.2100",
       "previous_yes_bid_dollars": "0.0200",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1084,7 +1084,7 @@
       "open_interest_fp": "573.85",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.1000",
+      "previous_yes_ask_dollars": "0.0900",
       "previous_yes_bid_dollars": "0.0100",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1134,8 +1134,8 @@
       "open_interest_fp": "272.67",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.2000",
-      "previous_yes_ask_dollars": "0.2300",
-      "previous_yes_bid_dollars": "0.1100",
+      "previous_yes_ask_dollars": "0.2200",
+      "previous_yes_bid_dollars": "0.1700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1234,9 +1234,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "1597.31",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.5100",
-      "previous_yes_ask_dollars": "0.5500",
-      "previous_yes_bid_dollars": "0.4600",
+      "previous_price_dollars": "0.4800",
+      "previous_yes_ask_dollars": "0.5200",
+      "previous_yes_bid_dollars": "0.4300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1255,7 +1255,7 @@
       "ticker": "KXLOWTLV-26OCT07-B73.5",
       "title": "Will the minimum temperature be 73-74° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "1709.31",
+      "volume_24h_fp": "1685.31",
       "volume_fp": "1867.31",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -1285,9 +1285,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "434.68",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2600",
-      "previous_yes_ask_dollars": "0.2600",
-      "previous_yes_bid_dollars": "0.1500",
+      "previous_price_dollars": "0.2400",
+      "previous_yes_ask_dollars": "0.3000",
+      "previous_yes_bid_dollars": "0.1800",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1306,7 +1306,7 @@
       "ticker": "KXLOWTLV-26OCT07-B71.5",
       "title": "Will the minimum temperature be 71-72° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "510.41",
+      "volume_24h_fp": "465.41",
       "volume_fp": "584.94",
       "yes_ask_dollars": "0.0200",
       "yes_ask_size_fp": "200.00",
@@ -1337,7 +1337,7 @@
       "open_interest_fp": "499.70",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0500",
+      "previous_yes_ask_dollars": "0.0400",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1388,7 +1388,7 @@
       "open_interest_fp": "261.54",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0800",
+      "previous_yes_ask_dollars": "0.0700",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1438,8 +1438,8 @@
       "open_interest_fp": "5351.36",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0400",
-      "previous_yes_ask_dollars": "0.0500",
-      "previous_yes_bid_dollars": "0.0100",
+      "previous_yes_ask_dollars": "0.0700",
+      "previous_yes_bid_dollars": "0.0300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1488,7 +1488,7 @@
       "open_interest_fp": "895.04",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0100",
-      "previous_yes_ask_dollars": "0.0100",
+      "previous_yes_ask_dollars": "0.0200",
       "previous_yes_bid_dollars": "0.0000",
       "price_level_structure": "linear_cent",
       "price_ranges": [
@@ -1539,8 +1539,8 @@
       "open_interest_fp": "2094.64",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.3500",
-      "previous_yes_ask_dollars": "0.4000",
-      "previous_yes_bid_dollars": "0.2900",
+      "previous_yes_ask_dollars": "0.5600",
+      "previous_yes_bid_dollars": "0.3600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1589,9 +1589,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "1990.13",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.5200",
-      "previous_yes_ask_dollars": "0.6300",
-      "previous_yes_bid_dollars": "0.5300",
+      "previous_price_dollars": "0.4200",
+      "previous_yes_ask_dollars": "0.5400",
+      "previous_yes_bid_dollars": "0.3400",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1610,7 +1610,7 @@
       "ticker": "KXLOWTLAX-26OCT07-B70.5",
       "title": "Will the minimum temperature be 70-71° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:02.390892Z",
-      "volume_24h_fp": "2784.47",
+      "volume_24h_fp": "2761.47",
       "volume_fp": "2868.47",
       "yes_ask_dollars": "0.9700",
       "yes_ask_size_fp": "8.00",
@@ -1642,7 +1642,7 @@
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.1900",
       "previous_yes_ask_dollars": "0.1500",
-      "previous_yes_bid_dollars": "0.0500",
+      "previous_yes_bid_dollars": "0.0400",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1791,9 +1791,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "10287.77",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2600",
-      "previous_yes_ask_dollars": "0.2700",
-      "previous_yes_bid_dollars": "0.2600",
+      "previous_price_dollars": "0.2900",
+      "previous_yes_ask_dollars": "0.3000",
+      "previous_yes_bid_dollars": "0.2700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1812,7 +1812,7 @@
       "ticker": "KXHIGHTSFO-26OCT07-T77",
       "title": "Will the maximum temperature be <77° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.924624Z",
-      "volume_24h_fp": "21691.31",
+      "volume_24h_fp": "21652.97",
       "volume_fp": "26493.34",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -1894,8 +1894,8 @@
       "open_interest_fp": "3353.58",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.1700",
-      "previous_yes_ask_dollars": "0.1700",
-      "previous_yes_bid_dollars": "0.1600",
+      "previous_yes_ask_dollars": "0.1800",
+      "previous_yes_bid_dollars": "0.1700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1944,9 +1944,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "4017.82",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.1700",
-      "previous_yes_ask_dollars": "0.1900",
-      "previous_yes_bid_dollars": "0.1800",
+      "previous_price_dollars": "0.1800",
+      "previous_yes_ask_dollars": "0.1800",
+      "previous_yes_bid_dollars": "0.1700",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -1965,7 +1965,7 @@
       "ticker": "KXHIGHTSFO-26OCT07-B79.5",
       "title": "Will the maximum temperature be 79-80° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.924624Z",
-      "volume_24h_fp": "5760.28",
+      "volume_24h_fp": "5736.15",
       "volume_fp": "6969.63",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "7860.19",
@@ -1995,9 +1995,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "4537.51",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2600",
-      "previous_yes_ask_dollars": "0.2700",
-      "previous_yes_bid_dollars": "0.2600",
+      "previous_price_dollars": "0.2700",
+      "previous_yes_ask_dollars": "0.2600",
+      "previous_yes_bid_dollars": "0.2500",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2016,7 +2016,7 @@
       "ticker": "KXHIGHTSFO-26OCT07-B77.5",
       "title": "Will the maximum temperature be 77-78° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.924624Z",
-      "volume_24h_fp": "9147.03",
+      "volume_24h_fp": "9111.23",
       "volume_fp": "10328.82",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "8417.25",
@@ -2400,8 +2400,8 @@
       "open_interest_fp": "713.28",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.4200",
-      "previous_yes_ask_dollars": "0.4200",
-      "previous_yes_bid_dollars": "0.3400",
+      "previous_yes_ask_dollars": "0.5300",
+      "previous_yes_bid_dollars": "0.3600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2420,7 +2420,7 @@
       "ticker": "KXHIGHTSAN-26OCT07-T88",
       "title": "Will the maximum temperature be <88° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.924624Z",
-      "volume_24h_fp": "647.17",
+      "volume_24h_fp": "612.17",
       "volume_fp": "912.95",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "6459.65",
@@ -2501,9 +2501,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "331.69",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2000",
-      "previous_yes_ask_dollars": "0.1500",
-      "previous_yes_bid_dollars": "0.0900",
+      "previous_price_dollars": "0.0900",
+      "previous_yes_ask_dollars": "0.0600",
+      "previous_yes_bid_dollars": "0.0500",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2522,7 +2522,7 @@
       "ticker": "KXHIGHTSAN-26OCT07-B92.5",
       "title": "Will the maximum temperature be 92-93° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.924624Z",
-      "volume_24h_fp": "368.01",
+      "volume_24h_fp": "343.01",
       "volume_fp": "392.40",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "3219.00",
@@ -2553,8 +2553,8 @@
       "open_interest_fp": "862.68",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.2700",
-      "previous_yes_ask_dollars": "0.2700",
-      "previous_yes_bid_dollars": "0.1700",
+      "previous_yes_ask_dollars": "0.2500",
+      "previous_yes_bid_dollars": "0.1600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2605,7 +2605,7 @@
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.3300",
       "previous_yes_ask_dollars": "0.3400",
-      "previous_yes_bid_dollars": "0.3100",
+      "previous_yes_bid_dollars": "0.3300",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2858,7 +2858,7 @@
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.2200",
       "previous_yes_ask_dollars": "0.2200",
-      "previous_yes_bid_dollars": "0.2100",
+      "previous_yes_bid_dollars": "0.1800",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -2978,7 +2978,7 @@
       "ticker": "KXHIGHLAX-26OCT07-T90",
       "title": "Will the maximum temperature be >90° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.864799Z",
-      "volume_24h_fp": "565879.14",
+      "volume_24h_fp": "565374.99",
       "volume_fp": "586477.36",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "732077.21",
@@ -3058,7 +3058,7 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "44241.18",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2700",
+      "previous_price_dollars": "0.2800",
       "previous_yes_ask_dollars": "0.2800",
       "previous_yes_bid_dollars": "0.2600",
       "price_level_structure": "linear_cent",
@@ -3079,7 +3079,7 @@
       "ticker": "KXHIGHLAX-26OCT07-B89.5",
       "title": "Will the maximum temperature be 89-90° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.864799Z",
-      "volume_24h_fp": "78251.02",
+      "volume_24h_fp": "78240.80",
       "volume_fp": "85822.42",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "256748.23",
@@ -3109,9 +3109,9 @@
       "occurrence_datetime": "2026-10-08T14:00:00Z",
       "open_interest_fp": "47661.31",
       "open_time": "2026-10-06T14:00:00Z",
-      "previous_price_dollars": "0.2300",
+      "previous_price_dollars": "0.2400",
       "previous_yes_ask_dollars": "0.2400",
-      "previous_yes_bid_dollars": "0.2300",
+      "previous_yes_bid_dollars": "0.2200",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -3130,7 +3130,7 @@
       "ticker": "KXHIGHLAX-26OCT07-B87.5",
       "title": "Will the maximum temperature be 87-88° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.864799Z",
-      "volume_24h_fp": "90817.21",
+      "volume_24h_fp": "90775.68",
       "volume_fp": "96166.20",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "175957.62",
@@ -3161,8 +3161,8 @@
       "open_interest_fp": "58610.51",
       "open_time": "2026-10-06T14:00:00Z",
       "previous_price_dollars": "0.0800",
-      "previous_yes_ask_dollars": "0.0800",
-      "previous_yes_bid_dollars": "0.0700",
+      "previous_yes_ask_dollars": "0.0700",
+      "previous_yes_bid_dollars": "0.0600",
       "price_level_structure": "linear_cent",
       "price_ranges": [
         {
@@ -3181,7 +3181,7 @@
       "ticker": "KXHIGHLAX-26OCT07-B85.5",
       "title": "Will the maximum temperature be 85-86° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.864799Z",
-      "volume_24h_fp": "120331.07",
+      "volume_24h_fp": "120189.05",
       "volume_fp": "128513.63",
       "yes_ask_dollars": "1.0000",
       "yes_ask_size_fp": "0.00",
@@ -3232,7 +3232,7 @@
       "ticker": "KXHIGHLAX-26OCT07-B83.5",
       "title": "Will the maximum temperature be 83-84° on Oct 7, 2026?",
       "updated_time": "2026-10-06T14:00:01.864799Z",
-      "volume_24h_fp": "66759.82",
+      "volume_24h_fp": "66567.59",
       "volume_fp": "72335.82",
       "yes_ask_dollars": "0.0100",
       "yes_ask_size_fp": "245563.15",
@@ -3241,5 +3241,5 @@
       "yes_sub_title": "83° to 84°"
     }
   ],
-  "refreshed_at": "2026-10-08T07:28:23Z"
+  "refreshed_at": "2026-10-08T07:47:14Z"
 }
